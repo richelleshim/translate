@@ -11,12 +11,7 @@ const InputBox = ({ type, value, onChange, placeholder }) => {
         className="py-2.5 px-4 border-none focus:outline-none block w-full 
           rounded-lg bg-neutral-300 border-transparent text-black"
       />
-      {/* <IconButton
-        onClick={() => {}}
-        className="absolute right-2 top-2"
-      >
-        <VolumeUpIcon sx={{ color: "#000000" }} />
-      </IconButton> */}
+
     </div>
   );
 };

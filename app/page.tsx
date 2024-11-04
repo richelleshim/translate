@@ -1,4 +1,5 @@
 "use client";
+
 import InputBox from "@/components/InputBox";
 import LanguageDropDown from "@/components/LanguageDropDown";
 import useTranslate from "@/hooks/useTranslate";

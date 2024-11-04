@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/dynamic-path", "destination": "/api/dynamic-handler" }
+    ]
+  }
+  

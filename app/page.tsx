@@ -2,7 +2,7 @@
 import InputBox from "@/components/InputBox";
 import LanguageDropDown from "@/components/LanguageDropDown";
 import useTranslate from "@/hooks/useTranslate";
-import React, { ChangeEvent, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import VolumeUpIcon from "@mui/icons-material/VolumeUp";
 import { IconButton, Snackbar, Alert } from "@mui/material";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
@@ -43,6 +43,7 @@ const Home = () => {
     setTimeout(() => setIsCopied(false), 3000);
   };
 
+  
   return (
     <div className="w-full h-[100vh] bg-black flex items-center justify-center p-6">
       <div className="flex flex-col items-center text-center w-full max-w-4xl p-6 rounded-lg">
